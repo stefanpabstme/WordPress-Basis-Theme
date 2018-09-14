@@ -115,6 +115,7 @@ a:visited {
 /* For tablets: */
 @media only screen and (min-width: 768px) {
   /* Container */
+  #container,
   .container {
     width: 768px;
   }
@@ -125,6 +126,7 @@ a:visited {
 /* For small desktops: */
 @media only screen and (min-width: 992px) {
   /* Container */
+  #container,
   .container {
     width: 992px;
   }
@@ -135,6 +137,7 @@ a:visited {
 /* For medium and large desktops: */
 @media only screen and (min-width: 1200px) {
   /* Container */
+  #container,
   .container {
     width: 1200px;
   }
