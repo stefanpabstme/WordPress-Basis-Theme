@@ -1,0 +1,143 @@
+/*
+Theme Name: WordPress Basis Theme
+Theme URI: http://wordpress.org/themes/WPBT
+Author: stefanpabst.me
+Author URI: https://stefanpabst.me/
+Description: DE: Ein WordPress Theme basierende auf blankslate von TidyThemes.     ---     EN: Standard WordPress theme forked from blankslate by TidyThemes.
+Version: 1.0.0
+License: GNU General Public License
+License URI: https://www.gnu.org/licenses/gpl.html
+Tags: black, blue, white, light, one-column, fluid-layout, responsive-layout, custom-menu, featured-images, microformats, sticky-post, threaded-comments, translation-ready
+Text Domain: stefanpabst.me
+
+WordPress Basis Theme © 2011-2018 stefanpabst.me
+WordPress Basis Theme is distributed under the terms of the GNU GPL
+*/
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{font-size:100%;font:inherit;padding:0;border:0;margin:0;vertical-align:baseline}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}.clear{clear:both}
+.sticky{}.bypostauthor{}.wp-caption{}.wp-caption-text{}.gallery-caption{}.alignright{}.alignleft{}.aligncenter{}.screen-reader-text{clip:rect(1px, 1px, 1px, 1px);position:absolute !important}
+
+
+/* Common styles for all pages (mobile first) */
+/* Basics */
+.show {
+  display:block;
+}
+
+.hide {
+  display:none;
+}
+
+/* Fonts */
+@font-face {
+    font-family: futura_book_bt;
+    src: url(futura_book_bt.ttf);
+}
+
+@font-face {
+    font-family: futura_lt;
+    src: url(futura_lt.ttf);
+}
+
+/* Body and container */
+body #header,
+body div,
+body footer {
+  font-family: futura_book_bt;
+  color: #000;
+}
+
+body #header b,
+body div b,
+body footer b {
+  font-family: futura_lt;
+  color: #000;
+}
+
+#header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10000;
+}
+
+#container,
+.container {
+  margin-top: 150px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Headings, text, links, ... */
+h1,
+h2,
+h3 {
+  font-family: futura_lt;
+  padding: 0 0 35px 0;
+}
+h1 {
+  font-size: 72px;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 26px;
+}
+p {
+  font-size: 18px;
+  padding: 0 0 20px 0;
+}
+a,
+a:active,
+a:hover,
+a:visited {
+  color: #000;
+}
+
+/* Navigation */
+
+
+/* Comment */
+
+/* Comment */
+
+/* Comment */
+
+/* Comment */
+
+/* Comment */
+
+/* Comment */
+
+/* Media queries with bootstrap breakpoints */
+/* For tablets: */
+@media only screen and (min-width: 768px) {
+  /* Container */
+  .container {
+    width: 768px;
+  }
+  /* Comment */
+
+}
+
+/* For small desktops: */
+@media only screen and (min-width: 992px) {
+  /* Container */
+  .container {
+    width: 992px;
+  }
+  /* Comment */
+
+}
+
+/* For medium and large desktops: */
+@media only screen and (min-width: 1200px) {
+  /* Container */
+  .container {
+    width: 1200px;
+  }
+  /* Comment */
+
+}
