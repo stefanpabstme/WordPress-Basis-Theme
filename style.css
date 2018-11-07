@@ -111,13 +111,24 @@ a:visited {
 
 /* Comment */
 
-/* Media queries with bootstrap breakpoints */
+/* Media queries with bootstrap breakpoints - mobile first*/
+/* Optional: For big smartphones: */
+@media only screen and (min-width: 576px) {
+  /* Container */
+  #container,
+  .container {
+    width: 540px;
+  }
+  /* Comment */
+
+}
+
 /* For tablets: */
 @media only screen and (min-width: 768px) {
   /* Container */
   #container,
   .container {
-    width: 768px;
+    width: 720px;
   }
   /* Comment */
 
@@ -128,7 +139,7 @@ a:visited {
   /* Container */
   #container,
   .container {
-    width: 992px;
+    width: 960px;
   }
   /* Comment */
 
@@ -139,7 +150,7 @@ a:visited {
   /* Container */
   #container,
   .container {
-    width: 1200px;
+    width: 1140px;
   }
   /* Comment */
 
